@@ -1,0 +1,441 @@
+/* Tufts Polyhack Stylesheet */
+
+/* ===== General Styles ===== */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+    color: #DCDCDC;
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+p {
+    font-size: 1.3em;
+    line-height: 1.5em;
+    font-weight: 300;
+}
+
+h1 {
+    margin-top: 10vh;
+    margin-bottom: 3vh;
+    font-weight: 400;
+    font-size: 3em;
+}
+
+h2 {
+    font-weight: 400;
+}
+
+h3, h4 {
+    font-stretch: 1em;
+    line-height: 1.5;
+    font-weight: 300;
+}
+
+.cheattext {
+    font-size: 1em;
+}
+
+.cheatheader {
+    font-size: 2em;
+}
+
+.cheatlogo {
+    margin-left: 20%;
+    margin-top: 50px;
+}
+
+.mob-top-section {
+    /* Just for mobile */
+}
+
+.row {
+    margin: 0px;
+}
+
+/* ===== GRADIENT BACKGROUND ===== */
+
+.gradientpart {
+    width: 100%;
+    display: inline-block;
+    margin: 0;
+    /* background: linear-gradient(0deg, #FC6C40 , #A26BAD 33%, #2C9883
+           66%); */
+    background: linear-gradient(rgba(40, 140, 120, 1) 15%, rgba(140, 80, 140) 60%, rgba(240, 145, 45) 95%);
+    color: white;
+}
+
+.gradientpart div {
+    text-align: justify;
+}
+
+.blackbg {
+    background-color: #000000;
+    padding-bottom: 8%;
+    padding-top: 2%;
+}
+
+.greenpart {
+    padding: 0% 0 5% 0;
+}
+
+.purplepart {
+    padding: 10% 0 10% 0;
+}
+
+.orangepart {
+    padding: 10% 0 10% 0;
+}
+
+/* ===== Mobile Views ===== */
+
+@media (max-width: 768px) {
+    #logo-background, #logoTriangles, #logo, nav {
+        display: none;
+    }
+    .mob-top-section {
+        padding-top: 12%;
+        padding-bottom: 12%;
+        padding-right: 6%;
+        padding-left: 6%;
+    }
+    .mission-design {
+        margin-top: 8%;
+        width: 40%;
+    }
+    h1, h2 {
+        font-size: 2em;
+    }
+    h3, h4 {
+        font-size: 1.5em;
+        line-height: 1.5em;
+        text-align: left;
+    }
+
+    .right-title, .left-title {
+        text-align: center;
+        vertical-align: middle;
+        padding-bottom: 2%;
+    }
+    .mob-faq {
+        margin-left: 5%;
+        margin-top: 2%;
+        margin-bottom: 8%;
+    }
+    .btn-default {
+        margin-bottom: 12% !important;
+    }
+    .map {
+        padding-bottom: 6%;
+        padding-top: 15%;
+    }
+}
+
+#fallback {
+    max-width: 100%;
+    max-height: auto;
+}
+
+@media (min-width: 768px) {
+    #fallback {
+        display: none;
+    }
+    .navbar-nav {
+        margin: 0 auto;
+        display: table;
+        table-layout: fixed;
+        float: none;
+        font-family: 'Roboto', sans-serif;
+    }
+}
+
+/* ===== Content-Specific ===== */
+
+#bg {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: #000000;
+    z-index: -10000;
+}
+
+#logo-background {
+    position: relative;
+    width: 650px;
+    height: 680px;
+    z-index: 10;
+}
+
+#logo {
+    position: relative;
+    top: -450px;
+    z-index: 10000;
+    height: 260px;
+    width: 800px;
+    fill-opacity: 0;
+}
+
+#content {
+    padding: 0px;
+}
+
+#content a {
+    color: #999;
+}
+
+#Twitter .container .row {
+    text-align: center;
+}
+
+.purple {
+    padding-top: 8%;
+    padding-left: 5%
+}
+
+.orange {
+    padding-top: 10%;
+    padding-right: 5%
+}
+
+.about {
+    text-align: center;
+    padding-top: 6%;
+}
+
+.mission-design {
+    padding-top: 6%;
+}
+
+#mission h3 {
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 8%;
+}
+
+.right {
+    text-align: left;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.left {
+    text-align: left;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.lists {
+    margin-left: 40px;
+}
+
+#Logistics {}
+
+/* ===== Buttons ===== */
+
+.btn-default {
+    padding: 20px;
+    margin-bottom: 6%;
+    margin-top: 8%;
+    font-weight: 0;
+    font-size: 20px;
+    background-color: #22897A;
+    color: white !important;
+    border: none !important;
+}
+
+.btn-default:hover {
+    background-color: rgba(162, 107, 173, 1);
+    color: white;
+    box-shadow: 0px 0px 30px 3px rgba(0, 0, 0, 0.2);
+}
+
+#content a {
+    color: #444;
+}
+
+/* ===== Rows ===== */
+
+#Logistics {
+    padding-top: 8%;
+}
+
+
+#Sponsors .col-sm-5 img {
+    position: relative;
+    margin: 0 auto;
+}
+
+#Sponsors {
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+#Sponsors .row img {
+    max-width: 100%;
+}
+
+#Sponsors .row.gold {
+    margin-bottom: 80px;
+}
+#Sponsors .row.silver {
+    margin-bottom: 80px;
+}
+
+.sponsor-hubspot {
+    padding-left: 10%;
+    padding-top: 5%;
+    width: 40%;
+}
+
+.sponsor-chewy {
+    padding-top: 5%;
+    width: 30%;
+}
+
+.sponsor-paytronix {
+    width: 30%;
+    padding-top: 10%;
+}
+
+.sponsor-tripadvisor img {
+    width: 55%;
+    padding-top: 5%;
+}
+
+.sponsor-google img {
+    width: 75%;
+    padding-top: 5%;
+    padding-left: 40%;
+}
+
+.sponsor-adobe {
+    width: 10%;
+    padding-top: 5%;
+}
+
+.sponsor-redline img {
+    width: 75%;
+    padding-left: 40%;
+}
+
+.sponsor-mongodb {
+    width: 20%;
+    padding-top: 2%;
+}
+
+@media (max-width: 750px), only screen and (max-device-width: 480px) {
+    .btn-default {
+        margin-top: 60px;
+        margin-bottom: 20px;
+    }
+
+    .sponsor-hubspot {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+    }
+
+    .sponsor-chewy {
+        padding-top: 10%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+    .sponsor-paytronix {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+    }
+
+    .sponsor-adobe {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 20%;
+    }
+
+    .sponsor-tripadvisor img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+    }
+
+    .sponsor-redline {
+        display: block;
+        margin-right: 15%;
+    }
+
+    .sponsor-mongodb {
+        display: block;
+        padding-top: 10%;
+        margin-left: auto;
+        margin-right: auto;        
+        width: 40%;
+    }
+
+    .sponsor-google img {
+        display: block;
+        padding-top: 10%;
+        width: 60%;
+    }
+
+    .green {
+        display: none;
+    }
+
+    .purple {
+        display: none;
+    }
+
+    .orange {
+        display: none;
+    }
+}
+
+#footer {
+    margin: 100px 0px 80px;
+}
+
+#cheatfooter {
+    margin: 100px 0px 80px;
+}
+
+.center-title {
+    text-align: center;
+    vertical-align: middle;
+    padding-bottom: 2%;
+}
+
+.left-title {
+    text-align: left;
+    vertical-align: left;
+    padding-bottom: 2%;
+}
+
+.right-title {
+    text-align: left;
+    vertical-align: left;
+    padding-bottom: 2%;
+}
+
+.not-blue-link {
+    font-size: 26px;
+    color: #DCDCDC !important;
+    padding-left: 10%;
+}
+
+a.github-url {
+    color: gray !important;
+}
