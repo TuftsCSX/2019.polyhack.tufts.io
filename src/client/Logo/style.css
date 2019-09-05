@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
+
+.logo{
+    width:100%;
+    height: auto;
+    position: static;
+};
+
+.logoContainer{
+    padding-top: 150%;
+    position: fixed;
+    z-index: -1;
+}
+
+.DesktopLogoTextClass{
+    z-index: 10;
+    transform: scale(5);
+    padding-top: 50%;
+}
+
+.MobileLogoTextClass{
+    z-index: 10;
+    transform: scale(2);
+    padding-top: 50%;
+}
+
+
+
+

@@ -1,0 +1,20 @@
+.SponsorImgPlatinum{
+    width: 150px;
+    height: 150px;
+    margin-top: 40px;
+    margin-right: 30px;    
+}
+
+.SponsorImgGold{
+    width: 125px;
+    height: 125px;
+    margin-right: 20px;
+    margin-top: 40px;
+}
+
+.SponsorImgSilver{
+    width: 75px;
+    height: 75px;
+    margin-right: 20px;
+    margin-top: 40px;
+}

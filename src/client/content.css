@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
+
+
+.Register{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 8vw;
+  border-left: 1em;
+  border-right: 1em;
+  color: #37A08D;
+  background-repeat: no-repeat;
+}
+
+
+.Register:hover{
+  cursor: pointer;
+}
+
+.Dates{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #942459;
+}
+
+.Location{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #D4582C;
+}
+
+.MissionHeader .MissionHeaderDot .MissionBody{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+.MissionHeader{
+  font-weight: bolder;
+  color: #37A08D;
+}
+
+.MissionHeaderDot{
+  content: "";
+  display: inline-block;
+  background: #5B297A;
+  right: 100%;
+  height: 10px;
+  padding-top: 5px;
+}
+
+.MissionBody{
+  text-align: justify;
+}
+
+.Underline {
+  content: '';
+}
+
+.Sponsors{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 3em;
+  color: #942459;
+}
+
+.Mentors{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 3em;
+  color: #5B297A;
+}
+
+.FAQ1{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bolder;
+  font-size: 1.2em;
+  color: #5B297A;
+}
+
+.FAQ2{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bolder;
+  font-size: 1.2em;
+  color: #942459;
+}
+
+.aMLH{
+  display:block;max-width:100px;min-width:60px;position:fixed;right:50px;top:0;width:10%;z-index:100000;
+}
+
+.mobileInfoClass {
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.desktopInfoClass {
+  
+}
+
+.mobileFAQClass {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  overflow: -moz-scrollbars-none;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: none;
+}
+
+
+.desktopFAQClass {
+  flex-wrap: wrap;
+}

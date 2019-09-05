@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
+
+
+
+.RegisterDot{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 8em;
+  color: #D4582C;
+  margin-bottom: -10%
+}
+
+
+.Comment{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 2.5em;
+  color: #D3D3D3;
+}
+
+.TODO{
+  color: #D4582C;
+}
+
+h1 {
+  color: green;
+}
+
+body {
+  text-align: center;
+  margin: auto;
+}

@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
+
+
+.Navigation{
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+}
+
+.Navigation:hover{
+    color: #0000f3;
+}
+.Selected{
+    font-weight: bold;
+    font-size: 1em;
+    border-bottom: 3px solid #000;
+    padding-bottom: 3px;
+}
