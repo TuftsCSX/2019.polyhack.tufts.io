@@ -19,6 +19,7 @@
     "delay": "^4.3.0",
     "emotion": "^10.0.14",
     "express": "^4.16.3",
+    "gh-pages": "^2.1.1",
     "google-map-react": "^1.1.4",
     "grid-styled": "^5.0.2",
     "react": "^16.5.2",
